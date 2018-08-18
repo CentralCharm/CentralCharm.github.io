@@ -23,9 +23,15 @@ body{
   font-size: 16px;
   font-weight: 600;
 }
-li:last-child {
-    border-right: 1px solid #bbb;
+.searchBar {
+position: absolute;
+     top: 10px;
+     right: 15px; }
+.searchBar input{
+height: 28px;
+     width: 100px;
 }
+
 .pageWidth{
     margin:0 auto;
     max-width:1120px;
@@ -311,7 +317,7 @@ fieldset[disabled] .navbar-grey .btn-link:focus {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #e7e7e7;
+  border-color: none;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
