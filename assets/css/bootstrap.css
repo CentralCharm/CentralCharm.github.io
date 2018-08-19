@@ -3,10 +3,9 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
-  font-family: sans-serif;
+  font-family: 'Aldrich', sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -3405,9 +3404,17 @@ tbody.collapse.in {
 .dropdown {
   position: relative;
 }
-.dropdown-toggle:focus {
-  outline: 0;
-}
+.dropdown-toggleMoblie {
+  display:block;
+  height:50px;
+  width:50px;
+  position:absolute;
+  right:0;
+  top:0;
+  line-height:50px;
+  text-align:center;
+  color:rgba(255, 255, 255, 0.75)
+  }
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -3493,9 +3500,10 @@ tbody.collapse.in {
 .dropdown-header {
   display: block;
   padding: 3px 20px;
-  font-size: 12px;
+  font-size: 20px;
+  font-weight: bold;
   line-height: 1.42857143;
-  color: #777;
+  color: #000000;
   white-space: nowrap;
 }
 .dropdown-backdrop {
@@ -4052,7 +4060,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
-  border: 1px solid transparent;
+  border: 0px solid transparent;
   
 }
 @media (min-width: 768px) {
@@ -4582,7 +4590,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #f5f5f5;
+  background-color: #333333;
   border-radius: 4px;
 }
 .breadcrumb > li {
@@ -4594,7 +4602,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   content: "/\00a0";
 }
 .breadcrumb > .active {
-  color: #777;
+  color: #33CC33;
 }
 .pagination {
   display: inline-block;
@@ -4611,7 +4619,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   float: left;
   padding: 6px 12px;
   margin-left: -1px;
-  line-height: 1.42857143;
+  line-height: 10.42857143;
   color: #337ab7;
   text-decoration: none;
   background-color: #fff;

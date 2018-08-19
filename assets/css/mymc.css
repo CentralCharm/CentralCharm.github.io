@@ -26,11 +26,18 @@ body{
 .searchBar {
 position: absolute;
      top: 10px;
-     right: 15px; }
+     right: 15px;
+      }
 .searchBar input{
 height: 28px;
      width: 100px;
 }
+.btn-dropdown {
+padding: 0;
+border: none;
+background: none; 
+}
+
 .pageWidth{
     margin:0 auto;
     max-width:1120px;
